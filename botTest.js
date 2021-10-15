@@ -46,7 +46,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
       verified: true,
       project: cmd,
     })
-
+    console.log('test')
     var config = {
       method: 'post',
       url: 'https://api.cnft.io/market/listings',
