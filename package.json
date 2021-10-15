@@ -10,8 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.23.0",
+    "convict": "^6.1.0",
+    "convict-format-with-validator": "^6.2.0",
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
     "qs": "^6.10.1",
+    "uuid": "^8.3.2",
     "winston": "^3.3.3"
   }
 }
