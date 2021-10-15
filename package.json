@@ -1,0 +1,17 @@
+{
+  "name": "floorbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "floorBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "qs": "^6.10.1",
+    "winston": "^3.3.3"
+  }
+}
