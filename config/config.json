@@ -1,0 +1,12 @@
+{
+    "cnftParams": {
+        "sort": "price",
+        "order": "asc",
+        "page": "1",
+        "verified": true,
+        "method": "post",
+        "url": "https://api.cnft.io/market/listings",
+        "ContentType": "application/x-www-form-urlencoded"
+
+    }
+}

@@ -31,11 +31,11 @@ bot.on('message', async function (user, userID, channelID, message, evt) {
       data,
     }
     try {
-      const resAxios = await axios(configReq)
+      const { data: resAxios } = await axios(configReq)
 
       logger.info(`Res Axios: ${resAxios} UUID:${uuid}`)
 
-      const floorObj = resAxios.data.assets[0]
+      const floorObj = resAxios.assets[0]
 
       const floor = floorObj.price / 1000000
 
