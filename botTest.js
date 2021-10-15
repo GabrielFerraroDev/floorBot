@@ -22,9 +22,9 @@ bot.on('ready', function (evt) {
 bot.on('message', function (user, userID, channelID, message, evt) {
   if (message.substring(0, 6) == '!floor') {
     var args = message.substring(7, message.length)
-    console.log(args)
+
     let cmd = args
-    console.log('Esse é o cmd', cmd)
+
     switch (cmd) {
       case 'clay nation':
         cmd = 'Clay Nation By Clay Mates'
@@ -55,7 +55,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
       },
       data: data,
     }
-    console.log(cmd)
     const resAxios = axios(config)
       .then(function (response) {
         const floorObj = response.data.assets[0]
